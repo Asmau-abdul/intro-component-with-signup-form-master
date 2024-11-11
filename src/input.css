@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./poppins/Poppins-Regular.ttf'),
+}
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
+}
+
+.mobile-bg{
+    background-image: url('../images/bg-intro-mobile.png');
+    background-color: hsl(0, 100%, 74%);
+}
+
+.desktop-bg{
+    background-image: url('../images/bg-intro-mobile.png');
+    background-color: hsl(0, 100%, 74%);
+}
+
+.blue-bg{
+    background-color:hsl(248, 32%, 49%);
+}
+
+.green-bg{
+    background-color: hsl(154, 59%, 51%);
+}
+
+.color-red{
+    color: hsl(0, 100%, 74%);
+}
+
+.bg-icon{
+    border: 1px solid red;
+    padding-right: 2.5rem; /* Space for the icon */
+    background-image: url('../images/red-icon.png'); /* Replace with your icon URL */
+    background-repeat: no-repeat;
+    background-size: 16px 16px; /* Size of the icon */
+    background-position: right 0.5rem center;
+}

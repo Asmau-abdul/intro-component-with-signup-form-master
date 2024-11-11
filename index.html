@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="src/output.css">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="mobile-bg min-h-screen items-center justify-center">
+  <main class="container mx-auto p-6 grid grid-cols-12 gap-4 md:mt-14 md:justify-center md:items-center">
+    <section class="col-span-12 text-center gap-4 md:col-span-8 md:col-start-3 lg:col-span-6 lg:gap-2 lg:p-7 lg:m-auto lg:text-left xl:p-14">
+      <div class="text-white">
+        <h1 class="font-bold text-3xl text-white p-8 mt-10 lg:pl-0 lg:text-4xl">Learn to code by  <br> watching others</h1>
+        <p class="lg:text-l">See how experienced developers solve problems in real-time. Watching <br class="md:hidden">
+          scripted tutorials is great, but <br class="md:hidden"> understanding how developers think is invaluable.
+        </p>
+        </div>
+      </div>
+    </section>
+  
+    <section class="text-center col-span-12 gap-4 p-4 md:col-span-8 md:col-start-3 lg:col-span-6">
+      <div>
+        <p class="blue-bg my-5 p-4 rounded-xl text-white shadow-[1px_7px_0px_rgba(0,0,0,0.2)]"><span class="font-bold">Try it free 7 days</span> then <br class="md:hidden"> $20/mo. thereafter</p>
+        <form action="" method="get" class="bg-white rounded-xl p-6 shadow-[1px_7px_0px_rgba(0,0,0,0.2)]">
+          <div>
+            <input type="text" placeholder="First name" id="firstname" class="border border-gray-300 rounded p-4 w-full placeholder-gray-500 font-bold mb-4">
+            <p class="color-red firstname text-end text-[12px] pb-1 hidden"><i>First name cannot be empty</i></p>
+          </div>
+          <div>
+            <input type="text" placeholder="Last name" id="lastname" class="border border-gray-300 rounded p-4 w-full placeholder-gray-500 font-bold mb-4">
+            <p class="color-red lastname text-end text-[12px] pb-1 hidden"><i>Last name cannot be empty</i></p>
+          </div>
+          <div>
+            <input type="email" name="email" id="email" placeholder="Email Address" class="border border-gray-300 rounded p-4 w-full placeholder-gray-500 font-bold mb-4">
+            <p class="color-red email text-end text-[12px] pb-1 hidden"><i>Email cannot be empty</i></p>
+          </div>
+          <div>
+            <input type="password" name="password" id="password" placeholder="Password" class="border border-gray-300 rounded p-4 w-full placeholder-gray-500 font-bold mb-4">
+            <p class="color-red password text-end text-[12px] pb-1 hidden"><i>Password cannot be empty</i></p>
+          </div>
+          <button type="submit" class="green-bg p-3 rounded w-full text-white mb-3 hover:bg-green-300">CLAM YOUR FREE TRIAL</button>
+          <p class="text-[10px] text-slate-400">By clicking the button, you are agreeing to <br> our <span class="color-red font-bold">Terms and Services</span></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <script src="src/app.js"></script>
+</body>
+</html>
