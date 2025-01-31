@@ -33,6 +33,11 @@ body {
     color: hsl(0, 100%, 74%);
 }
 
+.emailred::placeholder{
+    color: red;
+    opacity: 1;
+}
+
 .bg-icon{
     border: 1px solid red;
     padding-right: 2.5rem; /* Space for the icon */
